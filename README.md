@@ -107,7 +107,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Developer
 
-Developed by Sihle Langa - A passionate developer creating beautiful and functional web experiences.
+Developed by Sonwabile Langa - A passionate developer creating beautiful and functional web experiences.
 
 ---
 
