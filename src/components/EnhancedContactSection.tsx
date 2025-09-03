@@ -10,7 +10,7 @@ const EnhancedContactSection = () => {
     {
       icon: Phone,
       title: "Call Direct",
-      description: "Speak with our admissions team",
+      description: "Speak directly with Sonwabile",
       action: "079 370 9715",
       href: "tel:0793709715",
       color: "bg-green-500"
@@ -80,7 +80,7 @@ const EnhancedContactSection = () => {
               Start Your Data Analytics Journey
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Ready to transform your career? Get in touch with our admissions team to secure your spot 
+              Ready to transform your career? Get in touch with Sonwabile to secure your spot 
               in the next cohort. Limited seats available.
             </p>
           </motion.div>
