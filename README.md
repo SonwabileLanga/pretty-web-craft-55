@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# Pretty Web Craft Academy
 
-## Project info
+A modern, responsive educational platform built with React and TypeScript, featuring a beautiful UI for showcasing courses, instructors, and student success stories.
 
-**URL**: https://lovable.dev/projects/5e39ce2d-f307-44a2-952d-728b75201709
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Design**: Clean, professional interface with smooth animations
+- **Responsive Layout**: Optimized for all device sizes
+- **Course Showcase**: Display available courses with detailed information
+- **Instructor Profiles**: Highlight qualified instructors and their expertise
+- **Success Stories**: Share testimonials and student achievements
+- **Contact System**: Enhanced contact form for inquiries
+- **Interactive Components**: Engaging user experience with modern UI elements
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+This project is built with modern web technologies:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5e39ce2d-f307-44a2-952d-728b75201709) and start prompting.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite for fast development and building
+- **Styling**: Tailwind CSS for utility-first styling
+- **UI Components**: shadcn/ui components for consistent design
+- **Icons**: Lucide React for beautiful icons
+- **Animations**: Framer Motion for smooth transitions
+- **Routing**: React Router DOM for navigation
+- **State Management**: TanStack Query for server state
+- **Form Handling**: React Hook Form with Zod validation
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📦 Installation & Setup
 
-**Use your preferred IDE**
+Follow these steps to get the project running locally:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd pretty-web-craft-55
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build the project for production
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── AcademyHero.tsx # Hero section component
+│   ├── AboutSection.tsx # About section
+│   ├── CoursesSection.tsx # Courses showcase
+│   ├── InstructorsSection.tsx # Instructors display
+│   └── ...
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── assets/             # Static assets
+```
 
-This project is built with:
+## 🎨 Customization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The project uses Tailwind CSS for styling, making it easy to customize:
 
-## How can I deploy this project?
+- Modify colors in `tailwind.config.ts`
+- Update component styles in individual component files
+- Add new components in the `src/components/` directory
 
-Simply open [Lovable](https://lovable.dev/projects/5e39ce2d-f307-44a2-952d-728b75201709) and click on Share -> Publish.
+## 🚀 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+To deploy this project:
 
-Yes, you can!
+1. Build the project: `npm run build`
+2. Deploy the `dist` folder to your preferred hosting service
+3. Configure your domain and SSL certificate
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Popular deployment options:
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/new-feature`
+3. Commit your changes: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Developer
+
+Developed by Sihle Langa - A passionate developer creating beautiful and functional web experiences.
+
+---
+
+For questions or support, please open an issue in the repository or contact the development team.
