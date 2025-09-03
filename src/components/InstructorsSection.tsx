@@ -3,14 +3,14 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { LinkedinIcon, Mail, Award, BookOpen, Users } from "lucide-react";
 import { motion } from "framer-motion";
-import instructorImage from "@/assets/instructor-siphesihle.jpg";
+
 
 const InstructorsSection = () => {
   const instructor = {
     name: "Siphesihle Sinare",
     title: "Lead Data Analytics Instructor",
     credentials: "Microsoft Certified Data Analyst",
-    image: instructorImage,
+
     bio: "With over 5 years of experience in data analytics and business intelligence, Siphesihle has helped hundreds of professionals transition into successful data careers. His practical approach combines industry best practices with hands-on learning.",
     achievements: [
       "Microsoft Certified Data Analyst",
@@ -63,16 +63,7 @@ const InstructorsSection = () => {
                   {/* Left Column - Image and Basic Info */}
                   <div className="p-8 lg:p-12 bg-gradient-to-br from-accent/5 to-accent/10">
                     <div className="text-center lg:text-left space-y-6">
-                      <div className="relative inline-block">
-                        <img
-                          src={instructor.image}
-                          alt={instructor.name}
-                          className="w-48 h-48 lg:w-56 lg:h-56 rounded-2xl object-cover shadow-glow mx-auto lg:mx-0"
-                        />
-                        <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground rounded-full p-3 shadow-lg">
-                          <Award className="w-6 h-6" />
-                        </div>
-                      </div>
+
                       
                       <div className="space-y-2">
                         <h3 className="font-serif text-3xl font-bold text-primary">
