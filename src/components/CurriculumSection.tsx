@@ -12,7 +12,8 @@ import {
   Target,
   CheckCircle,
   Clock,
-  Users
+  Users,
+  BookOpen
 } from "lucide-react";
 import { motion } from "framer-motion";
 
